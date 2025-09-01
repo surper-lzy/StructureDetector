@@ -60,6 +60,9 @@ class Resize:
             raise IOError("Input 'size' must be an int or a tuple<int>.")
 
     def __call__(self, input, target):
+        # 确保图像为RGB模式，统一通道数
+        if input.mode != 'RGB':
+            input = input.convert('RGB')
         image = F.resize(input, (self.height, self.width))
         annotation = target.resized(input.size, (self.width, self.height))
         return image, annotation
@@ -108,14 +111,23 @@ class Compose:
 
 class Normalize:
     def __init__(self, mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]):
-        self.transform = torchtf.Normalize(mean=mean, std=std)
+        self.mean = mean
+        self.std = std
 
     def __call__(self, input, target):
         output = F.to_tensor(input)  # input is normalized in [0, 1]
+        # 根据图像通道数调整均值和标准差
+        if output.shape[0] == 1:  # 单通道图像
+            mean = [self.mean[0]]
+            std = [self.std[0]]
+        else:  # 三通道图像
+            mean = self.mean
+            std = self.std
+        self.transform = torchtf.Normalize(mean=mean, std=std)
         return (self.transform(output), target)
 
     def __repr__(self):
-        return f"Normalize(mean: {self.transform.mean}, std: {self.transform.std})"
+        return f"Normalize(mean: {self.mean}, std: {self.std})"
 
 
 class Encode:

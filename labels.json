@@ -1,4 +1,4 @@
 {
-    "labels": ["bean", "maize"],
-    "parts": ["leaf"]
+    "labels": ["a", "in_line", "two_cos", "tr_cos", "fo_cos", "none1", "none2", "none3", "none4", "b", "none5", "o", "none6", "p", "w"],
+    "parts": ["stem"]
 }

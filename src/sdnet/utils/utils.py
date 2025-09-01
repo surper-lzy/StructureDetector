@@ -2,6 +2,7 @@ import copy
 import json
 from collections import defaultdict
 from pathlib import Path
+from typing import Union
 
 import numpy as np
 import torch
@@ -420,7 +421,7 @@ def gaussian_2d(X, Y, mu1, mu2, sigma):
 
 
 def hypot(
-    input: torch.Tensor, dim: int = -1, *, output: torch.Tensor | None = None
+    input: torch.Tensor, dim: int = -1, *, output: Union[torch.Tensor, None] = None
 ) -> torch.Tensor:
     assert (
         input.size(dim) == 2

@@ -14,21 +14,21 @@ class Arguments:
             formatter_class=argparse.ArgumentDefaultsHelpFormatter
         )
 
-        parser.add_argument("--train_dir", type=str, help="The training directory.")
-        parser.add_argument("--valid_dir", type=str, help="The validation directory.")
+        parser.add_argument("--train_dir", type=str, default="/home/zrd/lzy/StructureDetector-mian/7969/train", help="The training directory.")
+        parser.add_argument("--valid_dir", type=str, default="/home/zrd/lzy/StructureDetector-mian/7969/val", help="The validation directory.")
 
         parser.add_argument(
             "--labels",
             "-m",
             type=str,
-            default="labels.json",
+            default="/home/zrd/lzy/StructureDetector/labels.json",
             help="Json file of anchor and part names. See 'labels.json' for an example.",
         )
         parser.add_argument(
             "--anchor_name",
             "-s",
             type=str,
-            default="anchor",
+            default="stem",
             help="Name of the keypoint representing the anchor of the object.",
         )
         parser.add_argument(
@@ -64,7 +64,7 @@ class Arguments:
             "--epochs",
             "-e",
             type=int,
-            default=100,
+            default=10,
             help="The number of epochs to train.",
         )
         parser.add_argument(

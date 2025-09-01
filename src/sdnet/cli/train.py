@@ -1,5 +1,8 @@
-from ..model import Trainer
-from ..utils import Arguments
+import sys 
+sys.path.append("/home/zrd/lzy/StructureDetector")
+
+from src.sdnet.model import Trainer
+from src.sdnet.utils import Arguments
 
 
 def main():
@@ -11,3 +14,6 @@ def main():
 
     trainer = Trainer(args)
     trainer.train()
+
+if __name__ == "__main__":
+    main()
