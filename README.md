@@ -1,12 +1,13 @@
 # Latest Introduction
 I am delighted to see the contribution made by the author of this source code repository, it is a great job. I have expanded this work to make it applicable for detecting endpoints and intersections in circuit relationship diagrams.
-Example of a new detection method ![circuit_diagram_example.png](StructureDetector/Circuit_diagram_example.jpg)
+Example of a new detection method !([StructureDetector/Circuit_diagram_example.jpg](https://github.com/surper-lzy/StructureDetector/blob/main/Circuit_diagram_example.jpg))
 
 I modified the network structure using ResNet101 and modified some of the training and detection codes to enable simultaneous input of color and black and white photos
 
 If it is necessary to label the methods in the reference warehouse:For annotating crops you can use [this repo](https://github.com/laclouis5/StructureAnnotator) or adapt it to your needs.
 
-Modify the training parameters in arg.spy. Please put the images and labels in the same folder
+Modify the training parameters in args.py. Please put the images and labels in the same folder
+```shell
 ---train
 |____images
 |____json
@@ -14,6 +15,7 @@ Modify the training parameters in arg.spy. Please put the images and labels in t
 ---val
 |____images
 |____json
+```
 
 
 
