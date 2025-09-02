@@ -4,10 +4,11 @@ import torch
 from PIL import Image
 from torch.utils.data import DataLoader
 from tqdm.contrib import tzip
-
-from ..data import Decoder, PredictionDataset, PredictionTransformation
-from ..model import Network
-from ..utils import Arguments, draw
+import sys 
+sys.path.append("/home/zrd/lzy/StructureDetector")
+from src.sdnet.data import Decoder, PredictionDataset, PredictionTransformation
+from src.sdnet.model import Network
+from src.sdnet.utils import Arguments, draw
 
 
 def detect():

@@ -1,0 +1,447 @@
+{
+  "image_path": "C:\\Users\\74874\\Desktop\\kkkppp\\images\\block_circuit_train_15k_0321_000401.png",
+  "objects": [
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 105,
+            "y": 112
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 227,
+            "y": 112
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 267,
+            "y": 152
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 347,
+            "y": 112
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 495,
+            "y": 112
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 617,
+            "y": 100
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 619,
+            "y": 125
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 764,
+            "y": 100
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 765,
+            "y": 125
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 682,
+            "y": 263
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 681,
+            "y": 153
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 549,
+            "y": 154
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 522,
+            "y": 154
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 534,
+            "y": 264
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 555,
+            "y": 369
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 267,
+            "y": 288
+          }
+        }
+      ]
+    },
+    {
+      "label": "input",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 37,
+            "y": 112
+          }
+        }
+      ]
+    },
+    {
+      "label": "two",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 535,
+            "y": 307
+          }
+        }
+      ]
+    },
+    {
+      "label": "two",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 682,
+            "y": 307
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 182,
+            "y": 112
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 305,
+            "y": 113
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 453,
+            "y": 112
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 574,
+            "y": 100
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 573,
+            "y": 124
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 719,
+            "y": 100
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 719,
+            "y": 124
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 682,
+            "y": 207
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 548,
+            "y": 208
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 523,
+            "y": 207
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 267,
+            "y": 207
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 267,
+            "y": 368
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 222,
+            "y": 368
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 608,
+            "y": 331
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 608,
+            "y": 307
+          }
+        }
+      ]
+    }
+  ]
+}

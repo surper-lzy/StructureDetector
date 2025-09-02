@@ -1,0 +1,395 @@
+{
+  "image_path": "C:\\Users\\74874\\Desktop\\kkkppp\\images\\The_International_Series_in_Engineering_and_Computer_Science__10.1007b105290_10.1007_b105290_page_82_img1.jpg",
+  "objects": [
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 520,
+            "y": 379
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 507,
+            "y": 341
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 522,
+            "y": 308
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 760,
+            "y": 341
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 1124,
+            "y": 342
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 1146,
+            "y": 981
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 1135,
+            "y": 1018
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 1148,
+            "y": 1057
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 1379,
+            "y": 1018
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 759,
+            "y": 1015
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 760,
+            "y": 719
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 758,
+            "y": 1318
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 258,
+            "y": 566
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 334,
+            "y": 268
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 377,
+            "y": 115
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 983,
+            "y": 341
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 983,
+            "y": 719
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 982,
+            "y": 1018
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 983,
+            "y": 1318
+          }
+        }
+      ]
+    },
+    {
+      "label": "two",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 1232,
+            "y": 1016
+          }
+        }
+      ]
+    },
+    {
+      "label": "two",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 379,
+            "y": 719
+          }
+        }
+      ]
+    },
+    {
+      "label": "two",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 332,
+            "y": 1013
+          }
+        }
+      ]
+    },
+    {
+      "label": "two",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 257,
+            "y": 1317
+          }
+        }
+      ]
+    },
+    {
+      "label": "two",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 406,
+            "y": 569
+          }
+        }
+      ]
+    },
+    {
+      "label": "two",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 407,
+            "y": 266
+          }
+        }
+      ]
+    },
+    {
+      "label": "two",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 409,
+            "y": 116
+          }
+        }
+      ]
+    },
+    {
+      "label": "four",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 392,
+            "y": 264
+          }
+        }
+      ]
+    },
+    {
+      "label": "four",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 346,
+            "y": 566
+          }
+        }
+      ]
+    },
+    {
+      "label": "four",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 389,
+            "y": 566
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 609,
+            "y": 342
+          }
+        }
+      ]
+    }
+  ]
+}

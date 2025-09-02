@@ -32,10 +32,10 @@ class Arguments:
             help="Name of the keypoint representing the anchor of the object.",
         )
         parser.add_argument(
-            "--width", "-W", default=512, type=int, help="The network input width."
+            "--width", "-W", default=1024, type=int, help="The network input width."
         )
         parser.add_argument(
-            "--height", "-H", default=512, type=int, help="The network input height."
+            "--height", "-H", default=1024, type=int, help="The network input height."
         )
         parser.add_argument(
             "--in_channels",
@@ -58,13 +58,13 @@ class Arguments:
             help="Load a previously trained model for evaluation of inference.",
         )
         parser.add_argument(
-            "--batch_size", "-b", default=8, type=int, help="Batch size for training."
+            "--batch_size", "-b", default=4, type=int, help="Batch size for training."
         )
         parser.add_argument(
             "--epochs",
             "-e",
             type=int,
-            default=10,
+            default=100,
             help="The number of epochs to train.",
         )
         parser.add_argument(
@@ -127,7 +127,7 @@ class Arguments:
         parser.add_argument(
             "--embedding_weight",
             type=float,
-            default=0.001,
+            default=0.01,
             help="Weight for the embedding loss.",
         )
         parser.add_argument(

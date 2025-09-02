@@ -10,6 +10,58 @@ def un_normalize(tensor):  # (B, 3, H, W)
     return tensor * std + mean
 
 
+def _format_color(color):
+    """
+    将颜色值转换为PIL兼容的格式
+    根据项目规范，颜色必须是int或单元素元组或三元素元组
+    """
+    # 处理bytes类型（来自xxhash的结果）
+    if isinstance(color, bytes):
+        if len(color) >= 3:
+            # 转换为RGB元组
+            return (color[0], color[1], color[2])
+        else:
+            # 不足3个字节，使用默认颜色
+            return (255, 0, 0)  # 红色作为默认
+    
+    # 处理元组类型
+    if isinstance(color, tuple):
+        if len(color) == 3:
+            # RGB元组，确保元素是整数
+            return (int(color[0]), int(color[1]), int(color[2]))
+        elif len(color) > 3:
+            # 超过3个元素，只取前3个
+            return (int(color[0]), int(color[1]), int(color[2]))
+        elif len(color) == 1:
+            # 单元素元组
+            return int(color[0])
+        else:
+            # 空元组或其他情况，使用默认颜色
+            return (255, 0, 0)  # 红色作为默认
+    
+    # 处理列表类型
+    if isinstance(color, list):
+        if len(color) == 3:
+            # RGB列表
+            return (int(color[0]), int(color[1]), int(color[2]))
+        elif len(color) > 3:
+            # 超过3个元素，只取前3个
+            return (int(color[0]), int(color[1]), int(color[2]))
+        elif len(color) == 1:
+            # 单元素列表
+            return int(color[0])
+        else:
+            # 空列表或其他情况，使用默认颜色
+            return (255, 0, 0)  # 红色作为默认
+    
+    # 处理整数类型
+    if isinstance(color, int):
+        return color
+    
+    # 其他类型，使用默认颜色
+    return (255, 0, 0)  # 红色作为默认
+
+
 def draw(image, annotation, args, unnorm_image=True):
     if isinstance(image, torch.Tensor):
         img = un_normalize(image) if unnorm_image else image
@@ -17,35 +69,43 @@ def draw(image, annotation, args, unnorm_image=True):
     else:
         img = image.copy()
 
+    # 确保图像为RGB模式
+    if img.mode != 'RGB':
+        img = img.convert('RGB')
+
     draw = ImageDraw.Draw(img)
     (img_w, img_h) = img.size
     offset = int(min(img_w, img_h) * 1 / 100)
     thickness = int(min(img_w, img_h) * 1 / 100)
 
     for obj in annotation.objects:
+        # 获取并格式化对象颜色
         obj_color = args._label_color_map[obj.name]
+        formatted_obj_color = _format_color(obj_color)
 
         (x, y) = (obj.x, obj.y)
 
         for kp in obj.parts:
+            # 获取并格式化关键点颜色
             kp_color = args._part_color_map[kp.kind]
+            formatted_kp_color = _format_color(kp_color)
 
             draw.line([x, y, kp.x, kp.y], fill="white", width=thickness)
             draw.ellipse(
                 [kp.x - offset, kp.y - offset, kp.x + offset, kp.y + offset],
-                fill=kp_color,
-                outline=kp_color,
+                fill=formatted_kp_color,
+                outline=formatted_kp_color,
             )
 
         draw.ellipse(
             [x - offset, y - offset, x + offset, y + offset],
-            fill=obj_color,
-            outline=obj_color,
+            fill=formatted_obj_color,
+            outline=formatted_obj_color,
         )
 
         # if obj.box is not None:
         #     box = obj.box
-        #     draw.rectangle([box.x_min, box.y_min, box.x_max, box.y_max], outline=obj_color, width=thickness)
+        #     draw.rectangle([box.x_min, box.y_min, box.x_max, box.y_max], outline=formatted_obj_color, width=thickness)
 
     return img
 

@@ -1,0 +1,382 @@
+{
+  "image_path": "C:\\Users\\74874\\Desktop\\kkkppp\\images\\10.1007b117369_10.1007_b117369_page_495_img1.png",
+  "objects": [
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 209,
+            "y": 307
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 387,
+            "y": 492
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 630,
+            "y": 491
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 814,
+            "y": 491
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 1055,
+            "y": 492
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 1053,
+            "y": 120
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 812,
+            "y": 120
+          }
+        }
+      ]
+    },
+    {
+      "label": "three",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 629,
+            "y": 119
+          }
+        }
+      ]
+    },
+    {
+      "label": "input",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 110,
+            "y": 308
+          }
+        }
+      ]
+    },
+    {
+      "label": "input",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 342,
+            "y": 203
+          }
+        }
+      ]
+    },
+    {
+      "label": "input",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 343,
+            "y": 410
+          }
+        }
+      ]
+    },
+    {
+      "label": "input",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 769,
+            "y": 205
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 344,
+            "y": 449
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 302,
+            "y": 492
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 485,
+            "y": 492
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 727,
+            "y": 492
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 912,
+            "y": 493
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 913,
+            "y": 120
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 728,
+            "y": 120
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 769,
+            "y": 161
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 486,
+            "y": 120
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 303,
+            "y": 120
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 342,
+            "y": 162
+          }
+        }
+      ]
+    },
+    {
+      "label": "two",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 209,
+            "y": 121
+          }
+        }
+      ]
+    },
+    {
+      "label": "two",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 211,
+            "y": 491
+          }
+        }
+      ]
+    },
+    {
+      "label": "jiantou",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 768,
+            "y": 450
+          }
+        }
+      ]
+    },
+    {
+      "label": "input",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 768,
+            "y": 413
+          }
+        }
+      ]
+    },
+    {
+      "label": "input",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 1152,
+            "y": 121
+          }
+        }
+      ]
+    },
+    {
+      "label": "input",
+      "box": null,
+      "parts": [
+        {
+          "kind": "stem",
+          "location": {
+            "x": 1154,
+            "y": 491
+          }
+        }
+      ]
+    }
+  ]
+}

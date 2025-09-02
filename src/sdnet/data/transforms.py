@@ -281,17 +281,51 @@ class ValidationAugmentation:
 
 class PredictionTransformation:
     def __init__(self, args):
+        self.in_channels = args.in_channels
+        self.args = args
+        
+        # 根据输入通道数确定归一化参数
+        if args.in_channels == 1:
+            # 灰度图像使用单个通道的均值和标准差
+            mean = [0.485]
+            std = [0.229]
+        elif args.in_channels == 3:
+            # RGB图像使用3通道的均值和标准差
+            mean = [0.485, 0.456, 0.406]
+            std = [0.229, 0.224, 0.225]
+        elif args.in_channels == 4:
+            # RGBA图像使用4通道的均值和标准差
+            mean = [0.485, 0.456, 0.406, 0.5]
+            std = [0.229, 0.224, 0.225, 0.25]
+        else:
+            # 其他情况默认使用3通道参数
+            mean = [0.485, 0.456, 0.406]
+            std = [0.229, 0.224, 0.225]
+            
         self.tf = torchtf.Compose(
             [
                 torchtf.Resize((args.height, args.width)),
                 torchtf.ToTensor(),
-                torchtf.Normalize(
-                    mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]
-                ),
+                torchtf.Normalize(mean=mean, std=std),
             ]
         )
 
     def __call__(self, input):
+        # 根据项目规范，所有输入图像必须转换为统一的RGB模式
+        # 确保输入图像与期望的通道数匹配
+        if self.args.in_channels == 1:
+            # 转换为灰度图像
+            input = input.convert('L')
+        elif self.args.in_channels == 3:
+            # 转换为RGB图像（项目规范要求）
+            input = input.convert('RGB')
+        elif self.args.in_channels == 4:
+            # 转换为RGBA图像
+            input = input.convert('RGBA')
+        else:
+            # 默认转换为RGB图像
+            input = input.convert('RGB')
+            
         return self.tf(input)
 
     def __repr__(self):
